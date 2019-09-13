@@ -1,0 +1,28 @@
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.body {
+    border: 1px blue solid;
+    margin: 24px;
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ml {
+    margin-left: 24px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
