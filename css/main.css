@@ -58,9 +58,10 @@ ul {
 }
 
 .content-contact {
-  display: block;
+  flex-direction: column;
+  align-content: center;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   color: white;
 }
 
@@ -132,11 +133,11 @@ ul {
 
 /* icons */
 .email-icon {
-  width: 15%;
+  width: 6%;
 }
 
 .phone-icon {
-  width: 6%;
+  width: 2%;
 }
 
 /* margin for navigation links */
@@ -210,6 +211,7 @@ ul {
 
 .section-contact-main {
   display: flex;
+  flex-direction: column;
   justify-content: left;
   border: 1px white solid;
   background-color: rgb(133, 170, 184);
