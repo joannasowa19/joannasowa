@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link
       href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap"
       rel="stylesheet"
@@ -15,10 +15,15 @@
   <body>
     <!--header-->
     <header class="header">
-      <h1>Joanna Sowa</h1>
+      <div>
+        <h1><a href="./index.html">Joanna Sowa</a></h1>
+      </div>
       <ul class="nav">
         <li class="ml">
-          <a title="About Me" class="button" href="./index.html">About Me</a>
+          <a title="Home" class="button" href="./index.html">Home</a>
+        </li>
+        <li class="ml">
+          <a title="About Me" class="button" href="./aboutme.html">About Me</a>
         </li>
         <li class="ml">
           <a title="Portfolio" class="button" href="./portfolio.html"
@@ -34,33 +39,29 @@
     <!--body-->
     <div class="overall">
       <section class="section-main">
-        <div class="section-content">
-          <div class="portfolio-grid">
-            <img
-              class="portfolio-grid-image"
-              src="https://picsum.photos/id/237/200/300"
-            />
-            <img
-              class="portfolio-grid-image"
-              src="https://picsum.photos/id/237/200/300"
-            />
-            <img
-              class="portfolio-grid-image"
-              src="https://picsum.photos/id/237/200/300"
-            />
-            <img
-              class="portfolio-grid-image"
-              src="https://picsum.photos/id/237/200/300"
-            />
-            <img
-              class="portfolio-grid-image"
-              src="https://picsum.photos/id/237/200/300"
-            />
-            <img
-              class="portfolio-grid-image"
-              src="https://picsum.photos/id/237/200/300"
-            />
-          </div>
+        <div class="row" class="portfolio-grid">
+          <img
+            class="portfolio-grid-image"
+            src="https://images.unsplash.com/photo-1535882757-b48db88a5154?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+          />
+          <p class="portfolio-grid-caption">Project 1</p>
+          <img
+            class="portfolio-grid-image"
+            src="https://images.unsplash.com/photo-1460039230329-eb070fc6c77c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+          />
+          <p class="portfolio-grid-caption">Project 3</p>
+        </div>
+        <div class="row" class="portfolio-grid">
+          <img
+            class="portfolio-grid-image"
+            src="https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"
+          />
+          <p class="portfolio-grid-caption">Project 2</p>
+          <img
+            class="portfolio-grid-image"
+            src="https://images.unsplash.com/photo-1517980124573-d3a65a032297?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=736&q=80"
+          />
+          <p class="portfolio-grid-caption">Project 4</p>
         </div>
       </section>
     </div>
