@@ -7,16 +7,6 @@ body {
   height: 100vh;
 }
 
-li {
-  display: list-item;
-  list-style: none;
-}
-
-ul {
-  display: block;
-  margin: 0px 10px;
-}
-
 /* button attributes */
 .button {
   border-radius: 6px;
@@ -39,30 +29,15 @@ ul {
   font-size: 14px;
 }
 
-.content-home {
-  font-family: "Gill Sans", sans-serif;
-  font-size: 60px;
-  font-weight: bold;
-  color: rgb(133, 170, 184);
-}
-
-.content-home-2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  color: rgb(133, 170, 184);
-}
-
 /* footer */
-.footer-home {
+.footer {
   display: flex;
   width: 100%;
   font-family: "Gill Sans", sans-serif;
   justify-content: center;
   color: white;
   background-color: #cccfd3;
-  padding-left: 25%;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px;
   border-top: rgb(133, 170, 184) 3px solid;
 }
 
@@ -75,23 +50,6 @@ ul {
   background-color: #cccfd3;
   padding: 1px 24px;
   border-bottom: rgb(133, 170, 184) 5px solid;
-}
-
-.header-logo {
-  font-size: 40px;
-  margin-right: 24px;
-}
-
-.header-2 {
-  font-family: "Gill Sans", sans-serif;
-  border-bottom: black 1px solid;
-  padding-bottom: 20px;
-}
-
-.header-3 {
-  font-family: "Gill Sans", sans-serif;
-  padding-bottom: 20px;
-  color: white;
 }
 
 /* margin for navigation links */
@@ -107,26 +65,36 @@ ul {
   padding: 50px 12px;
 }
 
-.nav2 {
-  display: flex;
-  list-style: none;
-  padding: 50px 12px;
-}
-
 /* content container */
 .overall {
-  width: 100vw;
-  height: 75vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-image: url("./../marble-background.jpg");
 }
 
-/* owl icon */
-.owl {
+/* portfolio */
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-grid-image {
   align-items: center;
-  padding-right: 5px;
-  justify-content: center;
+  vertical-align: top;
+  margin: 12px;
+  width: 300px;
+  padding: 24px;
+}
+
+.portfolio-grid-caption {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  align-items: center;
+  vertical-align: top;
+  margin: 12px;
+  width: 300px;
+  padding: 24px;
 }
 
 /* section */
@@ -135,16 +103,7 @@ ul {
   justify-content: left;
   border: 1px white solid;
   background-color: rgb(201, 226, 235);
-  width: 70vw;
-  margin: 24px;
-  padding: 24px;
-}
-
-.section-home-main {
-  display: flex;
-  justify-content: center;
-  width: 70vw;
-  height: 65vh;
+  width: 70%;
   margin: 24px;
   padding: 24px;
 }
@@ -157,16 +116,6 @@ ul {
 
   body {
     height: 100vh;
-  }
-
-  li {
-    display: list-item;
-    list-style: none;
-  }
-
-  ul {
-    display: block;
-    margin: 0px 10px;
   }
 
   /* button attributes */
@@ -191,30 +140,15 @@ ul {
     font-size: 14px;
   }
 
-  .content-home {
-    font-family: "Gill Sans", sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    color: rgb(133, 170, 184);
-  }
-
-  .content-home-2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    color: rgb(133, 170, 184);
-  }
-
   /* footer */
-  .footer-home {
+  .footer {
     display: flex;
-    width: 100vw;
+    width: 100%;
     font-family: "Gill Sans", sans-serif;
     justify-content: center;
     color: white;
     background-color: #cccfd3;
-    padding-left: 25%;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px;
     border-top: rgb(133, 170, 184) 3px solid;
   }
 
@@ -227,23 +161,6 @@ ul {
     background-color: #cccfd3;
     padding: 1px 24px;
     border-bottom: rgb(133, 170, 184) 5px solid;
-  }
-
-  .header-logo {
-    font-size: 40px;
-    margin-right: 24px;
-  }
-
-  .header-2 {
-    font-family: "Gill Sans", sans-serif;
-    border-bottom: black 1px solid;
-    padding-bottom: 20px;
-  }
-
-  .header-3 {
-    font-family: "Gill Sans", sans-serif;
-    padding-bottom: 20px;
-    color: white;
   }
 
   /* margin for navigation links */
@@ -259,26 +176,36 @@ ul {
     padding: 50px 12px;
   }
 
-  .nav2 {
-    display: flex;
-    list-style: none;
-    padding: 50px 12px;
-  }
-
   /* content container */
   .overall {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-image: url("./../marble-background.jpg");
   }
 
-  /* owl icon */
-  .owl {
+  /* portfolio */
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-grid-image {
     align-items: center;
-    padding-right: 5px;
-    justify-content: center;
+    vertical-align: top;
+    margin: 12px;
+    width: 300px;
+    padding: 24px;
+  }
+
+  .portfolio-grid-caption {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    align-items: center;
+    vertical-align: top;
+    margin: 12px;
+    width: 300px;
+    padding: 24px;
   }
 
   /* section */
@@ -287,16 +214,7 @@ ul {
     justify-content: left;
     border: 1px white solid;
     background-color: rgb(201, 226, 235);
-    width: 70vw;
-    margin: 24px;
-    padding: 24px;
-  }
-
-  .section-home-main {
-    display: flex;
-    justify-content: center;
-    width: 70vw;
-    height: 65vh;
+    width: 70%;
     margin: 24px;
     padding: 24px;
   }
