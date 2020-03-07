@@ -119,7 +119,7 @@ ul {
   height: 75vh;
   display: flex;
   justify-content: center;
-  background-image: url("./../marble-background.jpg");
+  background-color: lightblue;
 }
 
 /* owl icon */
