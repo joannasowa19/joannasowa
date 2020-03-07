@@ -105,12 +105,14 @@ ul {
   display: flex;
   list-style: none;
   padding: 50px 12px;
+  width: 100vw;
 }
 
 .nav2 {
   display: flex;
   list-style: none;
   padding: 50px 12px;
+  width: 100vw;
 }
 
 /* content container */
@@ -119,7 +121,7 @@ ul {
   height: 75vh;
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  background-image: url("./../marble-background.jpg");
 }
 
 /* owl icon */
